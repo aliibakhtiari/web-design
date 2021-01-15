@@ -1,0 +1,36 @@
+@import 'variable';
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+.logo,.link,.about{
+    background-color:#9874AA;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10%;
+    height: 275px;
+    box-shadow: gray 3px 3px 3px;
+
+}
+.logo{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.link{
+    a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: greenyellow;
+        font-size: 30px;
+        font-family: $font;
+    }
+}
+.about{
+    p{
+        font-family: $font;
+    }
+}
+.container-fluid{
+    background-color: rgb(1, 243, 243);
+}
